@@ -3,11 +3,10 @@ html, body {
 }
 
 body {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'sf_ui_textregular', 'PT Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  line-height: 22px;
-  font-size: 14px;
+  font-size: 20px;
   margin: 0;
   padding: 0;
 }
@@ -24,7 +23,17 @@ ul li {
 a {
   font-style: normal;
   text-decoration: none;
-  color: #767676;
+  color: rgb(71, 69, 69);
+}
+
+a:hover {
+  color: rgba(71, 69, 69, 0.2);
+  transition: .5s;
+}
+
+a:hover:before, a:hover:after {
+  opacity: 0.3;
+  transition: .5s;
 }
 
 .wrapper {
@@ -37,8 +46,8 @@ a {
 
 .container {
   display: flex;
-  width: 980px;
-  padding: 0 10px;
+  flex-direction: column;
+  max-width: 1650px;
   margin: 0 auto;
 }
 

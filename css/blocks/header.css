@@ -1,0 +1,46 @@
+.header {
+  padding: 50px 20px 65px 20px;
+  box-shadow: 0px 77px 90px 0px rgba(119, 142, 162, 0.2);
+}
+
+.header__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 65px;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo-link {
+  display: block;
+  width: 365px;
+  height: 73px;
+  background-image: url('../../img/logo_red.png');
+}
+
+.header__search-link:before {
+  content: url('../../img/magnifier.png');
+  display: inline-block;
+  height: 27px;
+  width: 27px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.header__user-link:after {
+  content: url('../../img/man-user.png');
+  display: inline-block;
+  height: 34px;
+  width: 26px;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+
+.header__hidemenu {
+  display: none;
+}
