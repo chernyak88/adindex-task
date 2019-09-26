@@ -21,7 +21,7 @@
     width: 100%;
     order: -1;
     padding-bottom: 35px;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
     border-bottom: 1px solid #fff;
   }
 
@@ -79,15 +79,14 @@
   }
 
   .menu__list {
-    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0 10px;
   }
 
   .menu__item {
+    width: 50%;
     margin-bottom: 20px;
-  }
-
-  .menu__item:last-child {
-    margin-bottom: 0;
+    text-align: center;
   }
 
   .menu__link, .menu__link:hover {
